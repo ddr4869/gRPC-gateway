@@ -5,12 +5,12 @@ package enttest
 import (
 	"context"
 
-	"github.com/ddr4869/go_template/ent"
+	"github.com/ddr4869/gRPC-gateway/server/ent"
 	// required by schema hooks.
-	_ "github.com/ddr4869/go_template/ent/runtime"
+	_ "github.com/ddr4869/gRPC-gateway/server/ent/runtime"
 
 	"entgo.io/ent/dialect/sql/schema"
-	"github.com/ddr4869/go_template/ent/migrate"
+	"github.com/ddr4869/gRPC-gateway/server/ent/migrate"
 )
 
 type (

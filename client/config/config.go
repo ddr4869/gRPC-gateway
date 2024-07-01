@@ -26,7 +26,6 @@ type GinConfig struct {
 
 var (
 	JwtSecretPassword string
-	Issuer            = "msazoom"
 )
 
 func Init() *Config {

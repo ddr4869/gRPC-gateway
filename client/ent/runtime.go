@@ -3,8 +3,8 @@
 package ent
 
 import (
-	"github.com/ddr4869/go_template/ent/schema"
-	"github.com/ddr4869/go_template/ent/user"
+	"github.com/ddr4869/gRPC-gateway/client/ent/schema"
+	"github.com/ddr4869/gRPC-gateway/client/ent/user"
 )
 
 // The init function reads all schema descriptors with runtime code

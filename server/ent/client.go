@@ -9,12 +9,12 @@ import (
 	"log"
 	"reflect"
 
-	"github.com/ddr4869/go_template/ent/migrate"
+	"github.com/ddr4869/gRPC-gateway/server/ent/migrate"
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/dialect/sql"
-	"github.com/ddr4869/go_template/ent/user"
+	"github.com/ddr4869/gRPC-gateway/server/ent/user"
 )
 
 // Client is the client that holds all ent builders.

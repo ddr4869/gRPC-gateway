@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/ddr4869/msazoom/config"
-	"github.com/ddr4869/msazoom/internal"
+	"github.com/ddr4869/gRPC-gateway/server/config"
+	"github.com/ddr4869/gRPC-gateway/server/internal"
 )
 
 func main() {

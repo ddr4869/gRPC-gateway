@@ -1,14 +1,14 @@
 package utils
 
 import (
-	// "github.com/ddr4869/msazoom/config"
+	// "github.com/ddr4869/gRPC-gateway/client/config"
 	// jwt_lib "github.com/dgrijalva/jwt-go"
 
 	"log"
 	"net/http"
 
-	"github.com/ddr4869/go_template/config"
-	"github.com/ddr4869/go_template/internal/dto"
+	"github.com/ddr4869/gRPC-gateway/client/config"
+	"github.com/ddr4869/gRPC-gateway/client/internal/dto"
 	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt/v5"
 )

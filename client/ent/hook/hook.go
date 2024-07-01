@@ -6,7 +6,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ddr4869/go_template/ent"
+	"github.com/ddr4869/gRPC-gateway/client/ent"
 )
 
 // The UserFunc type is an adapter to allow the use of ordinary

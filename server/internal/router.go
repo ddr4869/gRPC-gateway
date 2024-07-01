@@ -10,8 +10,9 @@ import (
 
 func SetUp(s *Server) {
 	r := s.router
-	api := r.Group("/api")
+	api := r.Group("/api/v1")
 	api.GET("/ping", s.Ping)
+	api.GET("/products", s.CallProductRpc)
 }
 
 func (s *Server) Ping(c *gin.Context) {

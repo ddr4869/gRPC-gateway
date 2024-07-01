@@ -7,8 +7,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/ddr4869/go_template/config"
-	"github.com/ddr4869/go_template/internal/dto"
+	"github.com/ddr4869/gRPC-gateway/server/config"
+	"github.com/ddr4869/gRPC-gateway/server/internal/dto"
 	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt/v5"
 )

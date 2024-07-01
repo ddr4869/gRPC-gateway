@@ -9,12 +9,12 @@ COPY go.sum .
 RUN go mod download
 COPY . .
 
-RUN go build -o go_template
+RUN go build -o client
 
 FROM alpine:latest
 RUN apk --no-cache add ca-certificates
 
-COPY --from=builder /app/go_template /go_template
+COPY --from=builder /app/client /client
 COPY .env .env
 
-CMD ["/go_template"]
+CMD ["/client"]

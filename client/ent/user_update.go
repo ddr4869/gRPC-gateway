@@ -10,8 +10,8 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/ddr4869/go_template/ent/predicate"
-	"github.com/ddr4869/go_template/ent/user"
+	"github.com/ddr4869/gRPC-gateway/client/ent/predicate"
+	"github.com/ddr4869/gRPC-gateway/client/ent/user"
 )
 
 // UserUpdate is the builder for updating User entities.
