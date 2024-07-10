@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package main;
+
+// 이 옵션에 맞게 Go 패키지(모듈) 구조 생성
+option go_package = "/Users/ieungyu/go/src/github.com/ddr4869/gRPC-gateway/server/proto";
+
+// 서비스 -> 서비스 안에 들어갈 function 인터페이스 정의
+service Greeter {
+  // Sends a greeting
+  rpc SayHello (HelloRequest) returns (HelloReply) {}
+}
+
+// The request message containing the user's name.
+message HelloRequest {
+  string name = 1;
+}
+
+// The response message containing the greetings
+message HelloReply {
+  string message = 1;
+}

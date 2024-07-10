@@ -11,7 +11,7 @@ import (
 func SetUp(s *Server) {
 	r := s.router
 	api := r.Group("/api")
-	api.GET("/ping", s.Ping)
+	api.GET("/message", s.GetNumberOfUnreadMessage)
 }
 
 func (s *Server) Ping(c *gin.Context) {
